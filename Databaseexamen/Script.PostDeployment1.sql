@@ -1,4 +1,15 @@
-﻿SET IDENTITY_INSERT [dbo].[Player] ON
+﻿/*
+Post-Deployment Script Template							
+--------------------------------------------------------------------------------------
+ This file contains SQL statements that will be appended to the build script.		
+ Use SQLCMD syntax to include a file in the post-deployment script.			
+ Example:      :r .\myfile.sql								
+ Use SQLCMD syntax to reference a variable in the post-deployment script.		
+ Example:      :setvar TableName MyTable							
+               SELECT * FROM [$(TableName)]					
+--------------------------------------------------------------------------------------
+*/
+SET IDENTITY_INSERT [dbo].[Player] ON
 INSERT INTO [dbo].[Player] ([PlayerId], [FirstName], [LastName], [Email], [Phone], [Login], [Password]) VALUES (1, N'Jan                                               ', N'Moenens                                           ', N'jan@moenens.be                                    ', N'0487675374          ', N'jan                 ', N'pasword             ')
 INSERT INTO [dbo].[Player] ([PlayerId], [FirstName], [LastName], [Email], [Phone], [Login], [Password]) VALUES (2, N'Audrey                                            ', N'Vroman                                            ', N'audrey@vroman.be                                  ', N'0475775668          ', N'audrey              ', N'pasword             ')
 INSERT INTO [dbo].[Player] ([PlayerId], [FirstName], [LastName], [Email], [Phone], [Login], [Password]) VALUES (4, N'Jerome                                            ', N'Moenens                                           ', N'Jerome@moenens.be                                 ', N'0040404850          ', N'jerome              ', N'imgod8575           ')

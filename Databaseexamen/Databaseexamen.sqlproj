@@ -132,7 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Databaseexamen.publish.xml" />
-    <None Include="DataScript1.sql" />
     <None Include="Databaseexamen_2.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
