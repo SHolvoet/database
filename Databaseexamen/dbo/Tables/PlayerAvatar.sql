@@ -9,7 +9,6 @@
     [TotalDefenece]  INT        NULL,
     [TotalStamina]   INT        NULL,
     [TotalMana]      INT        NULL,
-	[test]			 INT		NULL,
     PRIMARY KEY CLUSTERED ([PlayerAvatarId] ASC),
     CONSTRAINT [FK_PlayerAvatarId_AvatarId] FOREIGN KEY ([AvatarId]) REFERENCES [dbo].[Avatar] ([AvatarId]),
     CONSTRAINT [FK_PlayerAvatarId_InventoryId] FOREIGN KEY ([InventoryId]) REFERENCES [dbo].[Inventory] ([InventoryId]),
