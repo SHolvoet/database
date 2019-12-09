@@ -5,6 +5,7 @@
     [Defence]  INT        NOT NULL,
     [Stamina]  INT        NOT NULL,
     [Mana]     INT        NOT NULL,
+	[test]			 INT		NULL,
     PRIMARY KEY CLUSTERED ([AvatarId] ASC)
 );
 

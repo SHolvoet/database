@@ -8,6 +8,7 @@
     [BootsSlot3]     INT NULL,
     [MainHandSlot4]  INT NULL,
     [OffHandSlot5]   INT NULL,
+	[test]			 INT		NULL,
     PRIMARY KEY CLUSTERED ([InventoryId] ASC),
     CONSTRAINT [FK_Item_ToInventory] FOREIGN KEY ([ItemId]) REFERENCES [dbo].[Item] ([ItemId])
 );

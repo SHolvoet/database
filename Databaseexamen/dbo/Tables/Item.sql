@@ -8,6 +8,7 @@
     [Health]       INT        NULL,
     [Stamina]      INT        NULL,
     [Mana]         INT        NULL,
+	[test]			 INT		NULL,
     PRIMARY KEY CLUSTERED ([ItemId] ASC), 
     CONSTRAINT [CK_Item_SlotType] CHECK (AvatarType = NULL OR 
 												(SlotType = 1) OR 

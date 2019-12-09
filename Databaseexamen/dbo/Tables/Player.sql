@@ -6,6 +6,7 @@
     [Phone]     NCHAR (20) NOT NULL,
     [Login]     NCHAR (20) NOT NULL,
     [Password]  NCHAR (20) NOT NULL,
+	[test]			 INT		NULL,
     PRIMARY KEY CLUSTERED ([PlayerId] ASC),
     UNIQUE NONCLUSTERED ([Login] ASC)
 );
