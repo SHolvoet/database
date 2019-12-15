@@ -1,6 +1,6 @@
-1. 	ALS Speler WIL IK een accound aanmaken. ZODAT ik kan inloggen.
-2. 	ALS Speler WIL IK een avatar aanmaken ZODAT ik kan spelen.
-3.	ALS Speler WIL IK meerdere Avatars aanmaken ZODAT ik kan spelen met andere avatars op de zelfste accound.
+1. 	ALS Speler WIL IK een account aanmaken. ZODAT ik kan inloggen.
+2. 	ALS Speler WIL IK een avatar linken aan mijn account ZODAT ik kan spelen.
+3.	ALS Speler WIL IK meerdere Avatars aanmaken ZODAT ik kan spelen met andere avatars op de zelfste account.
 4.	ALS Speler WIL IK mijn eigen inventory ZODAT ik kan zien welke items er in mijn rugzak zitten.
 5.	ALS Speler WIL IK zien welk uitrusting ik kan aandoen ZODAT ik weet wat ik allemaal heb.
 6.	ALS Administrator WIL IK Avatars verwijderen ZODAT ik bepaalde mensen kan straffen.
