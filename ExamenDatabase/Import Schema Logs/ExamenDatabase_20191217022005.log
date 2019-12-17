@@ -1,0 +1,85 @@
+17/12/2019 15:20:05	This log contains information about the import schema operation into project 'ExamenDatabase' on computer 'WINDOWS-1IQAHAG' by user 'janzi'.
+17/12/2019 15:20:06	Import of database schema has started.
+17/12/2019 15:20:11	Gathering database credentials
+17/12/2019 15:20:11	Gathering database options
+17/12/2019 15:20:11	Gathering generic database scoped configuration option
+17/12/2019 15:20:11	Gathering users
+17/12/2019 15:20:11	Gathering roles
+17/12/2019 15:20:11	Gathering application roles
+17/12/2019 15:20:11	Gathering role memberships
+17/12/2019 15:20:11	Gathering filegroups
+17/12/2019 15:20:11	Gathering full-text catalogs
+17/12/2019 15:20:11	Gathering assemblies
+17/12/2019 15:20:11	Gathering certificates
+17/12/2019 15:20:11	Gathering asymmetric keys
+17/12/2019 15:20:11	Gathering symmetric keys
+17/12/2019 15:20:11	Gathering encrypted symmetric keys
+17/12/2019 15:20:11	Gathering schemas
+17/12/2019 15:20:11	Gathering XML schema collections
+17/12/2019 15:20:11	Gathering user-defined data types
+17/12/2019 15:20:11	Gathering user-defined types
+17/12/2019 15:20:11	Gathering table types
+17/12/2019 15:20:11	Gathering unique keys for table types
+17/12/2019 15:20:11	Gathering primary keys for table types
+17/12/2019 15:20:11	Gathering indexes for table types
+17/12/2019 15:20:11	Gathering check constraints for table types
+17/12/2019 15:20:11	Gathering default constraints for table types
+17/12/2019 15:20:11	Gathering partition functions
+17/12/2019 15:20:11	Gathering partition schemes
+17/12/2019 15:20:11	Gathering functions
+17/12/2019 15:20:11	Gathering encrypted functions
+17/12/2019 15:20:11	Gathering aggregates
+17/12/2019 15:20:11	Gathering procedures
+17/12/2019 15:20:11	Gathering encrypted procedures
+17/12/2019 15:20:11	Gathering tables
+17/12/2019 15:20:11	Gathering primary keys
+17/12/2019 15:20:11	Gathering unique constraints
+17/12/2019 15:20:11	Gathering foreign keys
+17/12/2019 15:20:11	Gathering default constraints
+17/12/2019 15:20:11	Gathering check constraints
+17/12/2019 15:20:11	Gathering views
+17/12/2019 15:20:11	Gathering encrypted views
+17/12/2019 15:20:11	Gathering indexes
+17/12/2019 15:20:11	Gathering statistics
+17/12/2019 15:20:11	Gathering full-text index stoplists
+17/12/2019 15:20:11	Gathering search property lists
+17/12/2019 15:20:11	Gathering search properties
+17/12/2019 15:20:11	Gathering full-text indexes
+17/12/2019 15:20:11	Gathering column store indexes
+17/12/2019 15:20:11	Gathering spatial indexes
+17/12/2019 15:20:11	Gathering XML indexes
+17/12/2019 15:20:11	Gathering Selective XML indexes
+17/12/2019 15:20:11	Gathering encrypted triggers
+17/12/2019 15:20:11	Gathering triggers
+17/12/2019 15:20:11	Gathering encrypted and clr ddl triggers
+17/12/2019 15:20:11	Gathering ddl triggers
+17/12/2019 15:20:11	Gathering synonyms
+17/12/2019 15:20:11	Gathering defaults
+17/12/2019 15:20:11	Gathering data constraint uddt bindings
+17/12/2019 15:20:11	Gathering rules
+17/12/2019 15:20:11	Gathering data constraint uddt bindings
+17/12/2019 15:20:11	Gathering message types
+17/12/2019 15:20:11	Gathering queues
+17/12/2019 15:20:11	Gathering contracts
+17/12/2019 15:20:11	Gathering services
+17/12/2019 15:20:11	Gathering event notifications
+17/12/2019 15:20:11	Gathering remote service bindings
+17/12/2019 15:20:11	Gathering broker priorities
+17/12/2019 15:20:11	Gathering signatures
+17/12/2019 15:20:11	Gathering data compression options
+17/12/2019 15:20:11	Gathering sequence types
+17/12/2019 15:20:11	Gathering security policies
+17/12/2019 15:20:11	Gather column encryption keys
+17/12/2019 15:20:11	Gathering column master keys
+17/12/2019 15:20:11	Gathering external data sources
+17/12/2019 15:20:11	Gathering external file formats
+17/12/2019 15:20:11	Gathering external tables
+17/12/2019 15:20:11	Gathering extended properties
+17/12/2019 15:20:11	Gathering credentials
+17/12/2019 15:20:11	Gathering logins
+17/12/2019 15:20:11	Gathering server audits
+17/12/2019 15:20:12	Scanning project for duplicate elements
+17/12/2019 15:20:13	Finished duplicate element processing
+17/12/2019 15:20:13	Finished importing database.
+17/12/2019 15:20:13	A summary of the import was saved to the following location: C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\Import Schema Logs\ExamenDatabase_20191217022005.log
+17/12/2019 15:20:13	Click Finish to continue...

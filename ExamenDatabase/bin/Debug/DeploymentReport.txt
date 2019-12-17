@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Avatar] (Table)
+       [dbo].[Inventory] (Table)
+       [dbo].[Item] (Table)
+       [dbo].[Player] (Table)
+       [dbo].[PlayerAvatar] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PlayerAvatar] (Default Constraint)
+       [dbo].[FK_Item_ToInventory] (Foreign Key)
+       [dbo].[FK_PlayerAvatar_Inventory] (Foreign Key)
+       [dbo].[FK_PlayerAvatarId_AvatarId] (Foreign Key)
+       [dbo].[FK_PlayerAvatarId_PlayerId] (Foreign Key)
+
+** Supporting actions

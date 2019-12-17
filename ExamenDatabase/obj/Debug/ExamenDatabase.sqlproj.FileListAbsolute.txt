@@ -1,0 +1,10 @@
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\ExamenDatabase.sqlprojAssemblyReference.cache
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\ExamenDatabase.dll
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\ExamenDatabase.pdb
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\bin\Debug\ExamenDatabase.dacpac
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\bin\Debug\ExamenDatabase.dll
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\bin\Debug\ExamenDatabase.pdb
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\Model.xml
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\refactor.xml
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\postdeploy.sql
+C:\Users\janzi\Pictures\DATABASE\Db\ExamenDatabase\ExamenDatabase\obj\Debug\predeploy.sql
