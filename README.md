@@ -14,6 +14,57 @@ ROLLEN!
 2. Administator
 3. Spelontwikkelaar
 
+----------------------------------------------------------------------------------------------------------------------------
+Tabel Player 		: Deze tabel houd alle echte gegevens bij van de speler.
+
+PlayerId		: Deze is uniek, alsook de Primary Key voor de tabel. Deze wordt gebruikt in verbinding met PlayerAvatar Tabel.
+FirstName 		: Echte Voornaam. NCHAR waarde
+LastName		: Echter Achternaam. NCHAR waarde
+Email			: Emailaddres waarom eventueel contact kan worden opgenomen met de betrokken persoon. NCHAR waarde
+Phone 			: Telefoonnr. INT waarde
+Login			: Naam voor de account deze moet uniek zijn zodat er maar 1 persoon kan inloggen. NCHAR, UNIQUE waarde
+Password		: Paswoord voor de login NCHAR waarde
+
+----------------------------------------------------------------------------------------------------------------------------
+Tabel Avatar		: Deze tabel houd alle verschillende avatars bij alsook hun basis stats.
+
+AvatarId		: Deze is uniek, alsook de Primary key voor de tabel. Deze wordt gebruikt in verbinding met PlayerAvatar Tabel.
+Type			: Dit is een naam van een avatar bvb Warlock, Warrior of Hunter in deze db. NCHAR waarde
+Health			: Basis waarde Health voor Avatar hangt af welk type avatar. INT DEFAULT waarde
+Defence			: Basis waarde Defence voor Avatar hangt af welk type avatar. INT, DEFAULT waarde
+Stamina			: Basis waarde Stamina voor Avatar hangt af welk type avatar. INT, DEFAULT waarde
+Mana			: Basis waarde Stamina voor Avatar hangt af welk type avatar. INT, DEFAULT waarde
+
+----------------------------------------------------------------------------------------------------------------------------
+Tabel PlayerAvatar	: Deze tabel houd de waardes bij van player/avatar alsook alle andere gegevens van gemaakt avatars,
+			: van zoals bvb naam, equipment en inventory....
+
+PlayerAvatarId 		: Deze is uniek, Alsook de Primary key voor de tabel, dit is de centrale tabel waar alles linkt met elkaar.
+PlayerId		: Link met Player tabel.
+AvatarId		: Link met Avatar tabel.
+FamilyName		: De groep naam van Avatars. als men meerdere avatars heeft  staat bij elke avatarnaam de zelfste groepnaam.
+AvatarName		: Naam van Avatar. Kan maar 1 keer voorkomen. NCHAR , UNIQUE 
+InventoryId		: Link met Inventory tabel.
+TotalHealth		: Was in overweging genomen om eventueel bvb nog "Level" toe te voegen. naarmaate hoger lvl = hoger stats
+TotalDefence		: Was in overweging genomen om eventueel bvb nog "Level" toe te voegen. naarmaate hoger lvl = hoger stats
+TotalStamine		: Was in overweging genomen om eventueel bvb nog "Level" toe te voegen. naarmaate hoger lvl = hoger stats
+TotalMana		: Was in overweging genomen om eventueel bvb nog "Level" toe te voegen. naarmaate hoger lvl = hoger stats
+HeadSlot1		: Wat de avatar draagt op zijn hoofd "zien als kledingstuk" NULL of link naar item
+ChestSlot2		: Wat de avatar draagt op zijn lichaam "zien als kledingstuk" NULL of link naar item
+BootsSlot3		: Wat de avatar draagt op zijn voeten "zien als kledingstuk" NULL of link naar item
+MainHandSlot4		: Wat de avatar draagt in zijn gevechtshand "zien als iets van de avatar vast heeft"
+OffhandSlot5		: Wat de avatar draagt in zijn verdedigingshand "zien als iets wat de avatar gebruikt om te verdedigen"
+
+----------------------------------------------------------------------------------------------------------------------------
+Tabel Inventory		: Deze tabel houd de waardes bij van alle items in de wereld, die een avatar kan hebben in zijn "rugzak"
+
+InventoryId		: Deze is uniek, Alsook de Primary key voor de tabel, deze linkt met PlayerAvatar.
+PlayerAvatarId		: Deze wordt gelinkt aan tabel PlayerAvatarId. zodat elk item gelinkt is aan een Avatar.
+AvatarType		: Deze houd bij voor welk AvatarType een item is. Kan NULL of voor 1 type Avatar specifiek zijn .
+ItemId			: Deze word gelinkt aan Tabel Item. 1 item kan meerdere keren voorkomen. in Inventory's.
+
+
+
 UserScrips Zie Hieronder
 
 -----------------------------------------------------------------------------------------------------------------------------------------
