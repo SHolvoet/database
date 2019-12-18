@@ -153,6 +153,57 @@ Mana			: INT waarde voor Magische kracht
 
 ----------------------------------------------------------------------------------------------------------------------------
 
+### Alle Constrains.
+
+**PlayerAvatar**
+
+FOREIGN KEY :
+
+    	CONSTRAINT [FK_PlayerAvatarId_AvatarId] FOREIGN KEY ([AvatarId]) REFERENCES [dbo].[Avatar] ([AvatarId])
+
+Legt de link van PlayerAvater naar Avatar Via AvatarId.
+
+    	CONSTRAINT [FK_PlayerAvatarId_PlayerId] FOREIGN KEY ([PlayerId]) REFERENCES [dbo].[Player] ([PlayerId])
+
+Legt de link van PlayerAvater naar Player Via PlayerId.
+
+    	CONSTRAINT [FK_PlayerAvatar_Inventory] FOREIGN KEY ([InventoryId]) REFERENCES [dbo].[Inventory] ([InventoryId])
+
+Legt de link van PlayerAvater naar Inventory Via InventoryId.
+
+UNIQUE :
+
+	UNIQUE NONCLUSTERED ([AvatarName] ASC),
+
+AvatarName is uniek. mochten er 2 de zelfste namen bestaan dan zou het moeilijker zijn om uit te zoeken met wie je aan het spelen bent.
+mocht je eventueel een chatbericht willen sturen en er bestaan bvb 2 Jan's in het spel  hoe zou het spel dan weten naar wie hij een bericht moet sturen.
+
+**Player**
+
+UNIQUE :
+
+	UNIQUE NONCLUSTERED ([Login] ASC)
+
+Login is uniek De reden hiervoor is als de login niet uniek zou zijn zou je bvb 2 verschillende paswoorden kunnen hebben op 1 dezelfde naam.
+En dan is dit weer onmogelijk om te weten wie er probeerd in te loggen.
+
+**Inventory**
+
+FOREIGN KEY :
+
+	CONSTRAINT [FK_Item_ToInventory] FOREIGN KEY ([ItemId]) REFERENCES [dbo].[Item] ([ItemId])
+
+Legt de link van Inventory naar Item via ItemId.
+
+**Item**
+
+UNIUQE :
+ 	
+	UNIQUE NONCLUSTERED ([Name] ASC)
+
+Name  is hier uniek omdat er geen 2 items met de zelfste naam kunnen zijn. zou alleen maar voor verwarring zorgen.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 ### UserScrips die te maken hebben met userstory's Zie Hieronder 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
