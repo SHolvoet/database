@@ -6,6 +6,13 @@ Ik probeerde het ook basic te houden.
 Ik heb een tabel voorzien voor de gegevens van een SPELER, een tabel voor de verschillende Avatars, een tabel voor verschillende ITEMS die in de wereld te vinden zijn, en dan ook een tabel om SPELER en AVATAR te linken"PLAYERAVATAR".
 Ook werd er een tabel INVENTORY voorzien die dan bijhoud welke AVATAR welke ITEMS in zijn bezit heeft.
 
+Voorbeeld van een Familie en verschillende Avatars onder 1 speler!
+
+![alt text](Uitlegvoorbeeld.png "Voorbeeld van een familie")
+
+Voorbeeld van een Inventory "rood" en voorbeeld van een ChestSlot2 Zoals in mijn DB "groen" Voorbeeld van een MainHand met maar 1 Avatartype "blauw"  En De eigen uitrusting staat voor  alles wat een avater zogezegt zou kunnen dragen "Orange".
+
+![alt text](Uitlegvoorbeeld1.png "Voorbeeld van Inventory en Equipment")
 
 ### Relaties!
 
