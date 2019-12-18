@@ -1,3 +1,20 @@
+### Relaties!
+
+Many 2 Many
+
+één speler"PlayerId" kan meerdere avatars hebben : één avatar"AvatarId" kan meerdere spelers hebben.
+
+One 2 One
+
+één avatar kan maar één InventoryId "rugzak" hebben.
+
+One 2 Many
+
+één item kan in meerdere inventory's terugkomen : één item kan meedere keren in één Inventory terugkomen.
+
+
+### User Stories!
+
 1. 	ALS Speler WIL IK een account aanmaken. ZODAT ik kan inloggen.
 
 2. 	ALS Speler WIL IK een avatar linken aan mijn account ZODAT ik kan spelen.
@@ -18,13 +35,19 @@
 
 10.	ALS Spelontwikkelaar WIL IK een event kunnen houden ZODAT ik spelers kunnen belonen met items.
 
-ROLLEN!
+
+
+### ROLLEN!
 1. Speler
 2. Administator
 3. Spelontwikkelaar
 
+
+
+## Uitleg Tabellen
+
 ----------------------------------------------------------------------------------------------------------------------------
-#Tabel Player 		: Deze tabel houd alle echte gegevens bij van de speler.
+### Tabel Player 		: Deze tabel houd alle echte gegevens bij van de speler.
 
 PlayerId		: Deze is uniek, alsook de Primary Key voor de tabel. Deze wordt gebruikt in verbinding met PlayerAvatar Tabel.
 
@@ -41,7 +64,7 @@ Login			: Naam voor de account deze moet uniek zijn zodat er maar 1 persoon kan 
 Password		: Paswoord voor de login NCHAR waarde
 
 ----------------------------------------------------------------------------------------------------------------------------
-#Tabel Avatar		: Deze tabel houd alle verschillende avatars bij alsook hun basis stats.
+### Tabel Avatar		: Deze tabel houd alle verschillende avatars bij alsook hun basis stats.
 
 AvatarId		: Deze is uniek, alsook de Primary key voor de tabel. Deze wordt gebruikt in verbinding met PlayerAvatar Tabel.
 
@@ -56,7 +79,7 @@ Stamina			: Basis waarde Stamina voor Avatar hangt af welk type avatar. INT, DEF
 Mana			: Basis waarde Stamina voor Avatar hangt af welk type avatar. INT, DEFAULT waarde
 
 ----------------------------------------------------------------------------------------------------------------------------
-#Tabel PlayerAvatar	: Deze tabel houd de waardes bij van player/avatar alsook alle andere gegevens van gemaakt avatars,
+### Tabel PlayerAvatar	: Deze tabel houd de waardes bij van player/avatar alsook alle andere gegevens van gemaakt avatars,
 			: van zoals bvb naam, equipment en inventory....
 			
 PlayerAvatarId 		: Deze is uniek, Alsook de Primary key voor de tabel, dit is de centrale tabel waar alles linkt met elkaar.
@@ -90,7 +113,7 @@ MainHandSlot4		: Wat de avatar draagt in zijn gevechtshand "zien als iets van de
 OffhandSlot5		: Wat de avatar draagt in zijn verdedigingshand "zien als iets wat de avatar gebruikt om te verdedigen"
 
 ----------------------------------------------------------------------------------------------------------------------------
-#Tabel Inventory	: Deze tabel houd de waardes bij van avatars inventory's. "Zien als rugzak"
+### Tabel Inventory	: Deze tabel houd de waardes bij van avatars inventory's. "Zien als rugzak"
 
 InventoryId		: Deze is uniek, Alsook de Primary key voor de tabel, deze linkt met PlayerAvatar.
 
@@ -101,7 +124,7 @@ AvatarType		: Deze houd bij voor welk AvatarType een item is. Kan NULL of voor 1
 ItemId			: Deze word gelinkt aan Tabel Item. 1 item kan meerdere keren voorkomen. in Inventory's.
 
 ----------------------------------------------------------------------------------------------------------------------------
-#Tabel Item		: Deze tabel houd de waardes bij van alle Items in de wereld.
+### Tabel Item		: Deze tabel houd de waardes bij van alle Items in de wereld.
 
 Name			: Naam van item.
 
@@ -121,7 +144,7 @@ Mana			: INT waarde voor Magische kracht
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-#UserScrips Zie Hieronder
+### UserScrips Zie Hieronder
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 --USERSTORY 1 en 2 ---------------------------------------------------------------------------------------------------------------------------
