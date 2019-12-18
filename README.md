@@ -1,3 +1,12 @@
+### Uitleg Database!
+
+Ik had de bedoeling een database te maken voor een MMORPG! "Massively Multiplayer Online Role Playing Game"
+Hierin  moet je dus een account aanmaken met je echte gegevens als je wilt spelen. Waarmee je dan kan inloggen op de game/website waar je kan selecteren met welk avatar je zou willen spelen/aanmaken. Ik probeerde via database duidelijk te maken welke tabellen er nodig zijn en hoe alles gelinkt wordt aan elkaar.
+Ik probeerde het ook basic te houden.
+Ik heb een tabel voorzien voor de gegevens van een SPELER, een tabel voor de verschillende Avatars, een tabel voor verschillende ITEMS die in de wereld te vinden zijn, en dan ook een tabel om SPELER en AVATAR te linken"PLAYERAVATAR".
+Ook werd er een tabel INVENTORY voorzien die dan bijhoud welke AVATAR welke ITEMS in zijn bezit heeft.
+
+
 ### Relaties!
 
 **Many 2 Many**
