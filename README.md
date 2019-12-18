@@ -1,3 +1,6 @@
+Mijn Db kan je vinden on deze pagina onder ExamenDatabase.sln
+
+
 ### Uitleg Database!
 
 Ik had de bedoeling een database te maken voor een MMORPG! "Massively Multiplayer Online Role Playing Game"
