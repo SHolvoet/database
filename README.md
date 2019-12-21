@@ -230,7 +230,7 @@ kreeg in dan nadat ik alles had ingevuld een compleet query die ik dan gewoon ka
 
 Natuurlijk zou het nog beter zijn om rechtstreeks mijn database te kunnen uitlezen. maar dit hebben we nog niet gezien in de les. dus moet je zelf voor ORM spelen 
 
-[![ORM Youtube Video])](https://www.youtube.com/watch?v=dHQ-I7kr_SY)
+[![ORM Youtube Video])]()(https://www.youtube.com/watch?v=dHQ-I7kr_SY)
 
 Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase "an ORM".
 
