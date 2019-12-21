@@ -214,6 +214,30 @@ UNIUQE :
 Name  is hier uniek omdat er geen 2 items met de zelfste naam kunnen zijn. zou alleen maar voor verwarring zorgen.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+### Onnodig maar handig geweest!
+
+Ik had voor mezelf een programma gescheven in een console applicatie die aan mij de input vroeg om nieuwe gebruikers toe te voegen aan mijn database. 
+
+![alt text](PlayerAccound.PNG "manier om data toe te voegen in mijn database!")
+
+Omdat ik het beter vondt telkens alle info die nodig was te typen zonder te moeten zoeken waar ik input moest veranderen in mijn query.
+
+kreeg in dan nadat ik alles had ingevuld een compleet query die ik dan gewoon kan knippen en plakken in een nieuwe query. 
+
+
+![alt text](PlayerAccoundUitvoer.PNG "Copy & Paste en done!")
+
+Natuurlijk zou het nog beter zijn om rechtstreeks mijn database te kunnen uitlezen. maar dit hebben we nog niet gezien in de les. dus moet je zelf voor ORM spelen 
+
+[![Link naar Youtube video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=dHQ-I7kr_SY)
+
+Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase "an ORM".
+
+An ORM library is a completely ordinary library written in your language of choice that encapsulates the code needed to manipulate the data, so you don't use SQL anymore; you interact directly with an object in the same language you're using.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
 ### UserScrips die te maken hebben met userstory's Zie Hieronder 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
