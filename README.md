@@ -217,7 +217,7 @@ Name  is hier uniek omdat er geen 2 items met de zelfste naam kunnen zijn. zou a
 
 ### Onnodig maar handig geweest!
 
-Ik had voor mezelf een programma gescheven in een console applicatie die aan mij de input vroeg om nieuwe gebruikers toe te voegen aan mijn database. 
+Ik had voor mezelf een programma geschreven in een console applicatie die aan mij de input vroeg om nieuwe gebruikers toe te voegen aan mijn database. 
 
 ![alt text](PlayerAccound.PNG "manier om data toe te voegen in mijn database!")
 
@@ -230,7 +230,7 @@ kreeg in dan nadat ik alles had ingevuld een compleet query die ik dan gewoon ka
 
 Natuurlijk zou het nog beter zijn om rechtstreeks mijn database te kunnen uitlezen. maar dit hebben we nog niet gezien in de les. dus moet je zelf voor ORM spelen 
 
-[![Link naar Youtube video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=dHQ-I7kr_SY)
+[![ORM Youtube Video](https://files.cults3d.com/uploaders/12892269/illustration-file/c6f4cb80-3adb-4d89-aec9-4a27a8142351/YouTube_Play_Button.PNG)](https://www.youtube.com/watch?v=dHQ-I7kr_SY)
 
 Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase "an ORM".
 
